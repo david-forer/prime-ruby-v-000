@@ -1,6 +1,6 @@
 def prime(number)
   if num >= 2 
-    (2...num).to_a.all? do |x|
+    (2...number).to_a.all? do |x|
       
     num % x !=0 
 end
